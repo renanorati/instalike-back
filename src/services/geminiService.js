@@ -10,7 +10,7 @@ const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 // Recebe como parâmetro um buffer de imagem.
 export default async function gerarDescricaoComGemini(imageBuffer) {
   // Prompt padrão para a geração de texto.
-  const prompt = "Gere uma descrição em português do brasil para a seguinte imagem";
+  const prompt = "Gere uma descrição em português do brasil para a imagem, escrevendo a descrição resumida diretamente, comentar ou explicar.";
 
   try {
     // Cria um objeto que representa a imagem, incluindo os dados da imagem em formato base64 e o tipo MIME.

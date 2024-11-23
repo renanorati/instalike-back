@@ -1,3 +1,4 @@
+import 'dotenv/config';
 import { ObjectId } from "mongodb";
 // Importa a função conectarAoBanco do arquivo dbConfig.js
 // Essa função estabelece a conexão com o banco de dados MongoDB usando a string de conexão fornecida.
